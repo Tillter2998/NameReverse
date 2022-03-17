@@ -6,6 +6,7 @@ import (
 	"log"
 )
 
+// test
 func main() {
 	reversedName, err := helpers.NameReverser("Elrich")
 	if err != nil {
