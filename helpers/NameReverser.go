@@ -2,7 +2,7 @@ package helpers
 
 import "errors"
 
-func NameReverser(name string) (string, error) {
+func ReverseName(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("Name cannot be empty")
 	}

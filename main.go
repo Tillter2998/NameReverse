@@ -8,7 +8,7 @@ import (
 
 // test
 func main() {
-	reversedName, err := helpers.NameReverser("Elrich")
+	reversedName, err := helpers.ReverseName("Elrich")
 	if err != nil {
 		log.Fatal(err)
 	}
